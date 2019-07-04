@@ -1,7 +1,7 @@
 'use strict';
 module.exports = function() {
-    let newKey = '';
-    let newValue = '';
+    let newKey;
+    let newValue;
     return {
         setValue: function(key, value){
             newKey = key;
